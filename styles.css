@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    /* width: 1780px; */
+    /* height: 1412px; */
+    background: rgba(26, 74, 96, 0.8);
+}
+
+.sign-up {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    left: 230px;
+    top: 65px;
+    background: #1F485B;
+    box-shadow: 4px 4px 26px rgba(255, 255, 255, 0.37), 4px 4px 16px rgba(255, 255, 255, 0.15), -4px 4px 26px rgba(75, 100, 119, 0.69);
+    border-radius: 20px;
+}
+
+.sign-up img {
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 5px;
+    top: 10px;
+}
+
+.sign-up p {
+    position: absolute;
+    width: 285px;
+    height: 70px;
+    left: 40px;
+    top: 100px;
+    font-family: monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+}
+
+.main-img {
+    /* background: url(Abstraction.png); */
+    position: absolute;
+    width: 400px;
+    height: 320px;
+    top: 175px;
+    left: 15px;
+}
+
+.main-img img {
+    /* transform: matrix(0.99, -0.16, 0.17, 0.99, 0, 0); */
+    width: 315px;
+    height: 315px;
+    position: absolute;
+    left: 70px;
+    top: 0;
+    z-index: 9;
+}
+
+.form {
+    width: 470px;
+    height: 200px;
+    background-color: antiquewhite;
+    position: absolute;
+    left: 330px;
+    height: 500px;
+    border-radius: 28px;
+}
+
+.form p {
+    position: absolute;
+    width: 221px;
+    height: 35px;
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #000000;
+}
+
+.google {
+    position: absolute;
+    Width: 200px;
+    Height: 40px;
+    background-color: #000000;
+    Top: 150px;
+    Left: 40px;
+    border-radius: 2px 12px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+
+.facebook {
+    position: absolute;
+    Width: 218px;
+    Height: 40px;
+    background-color: #0e96c7;
+    border-radius: 2px 12px;
+    Top: 150px;
+    Left: 245px;
+    box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+}
+
+.google img {
+    top: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.google p {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    position: absolute;
+    top: 1.2px;
+    width: 160px;
+    letter-spacing: 0;
+    color: antiquewhite;
+}
+
+.facebook img {
+    top: 5px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+.facebook p {
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    position: absolute;
+    top: 1.2px;
+    letter-spacing: 0;
+    color: antiquewhite;
+    width: 180px;
+}
+
+.google:hover {
+    margin-top: -1px;
+    transition: 0.5s;
+}
+
+.facebook:hover {
+    transition: 0.5s;
+    margin-top: -1px;
+}
+
+.or {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    text-align: center;
+}
+
+.or p {
+    position: absolute;
+    width: 100px;
+    left: 100px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+    color: #b4aaaa;
+}
+
+.form-details {
+    position: absolute;
+    top: 260px;
+    width: 330px;
+    height: 220px;
+    left: 60px;
+    display: block;
+}
+
+.form-details input {
+    width: 300px;
+    height: 30px;
+    margin: 10px 10px;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+.form-details input:focus {
+    border-color: #1F485B;
+}
+
+.form-details button {
+    position: relative;
+    top: 10px;
+    left: 125px;
+    width: 100px;
+    height: 30px;
+    font-family: monospace;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    background: linear-gradient(150deg, #5ee878 , #00c3ff);
+    border-radius: 2px 12px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+}
+
+.form-details button:hover {
+    background: linear-gradient(90deg, #099bc8,#2dab44);
+    transition: 1s ease-in-out;
+}
