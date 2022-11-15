@@ -277,3 +277,30 @@ form{
     color: #3f3d3d;
     cursor: pointer;
 }
+
+
+@media screen and (max-width:1000px){
+    .sign-up{
+        left: 10%;
+    }
+}
+@media screen and (max-width:960px){
+    .sign-up{
+        left: 8%;
+    }
+}
+@media screen and (max-width:760px){
+    .sign-up{
+        left: 6%;
+    }
+}
+@media screen and (max-width:560px){
+    .sign-up{
+        left: 4%;
+    }
+}
+@media screen and (max-width:270px){
+    .sign-up{
+        left: 1%;
+    }
+}
