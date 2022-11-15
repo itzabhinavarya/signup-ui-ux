@@ -311,3 +311,39 @@ form{
         left: 0;
     }
 }
+@media screen and (max-width:390px){
+    .sign-up{
+        left: 1%;
+        width: 500px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+@media screen and (max-width:250px){
+    .sign-up{
+        left: 1%;
+        width: 500px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+@media screen and (max-width:150px){
+    .sign-up{
+        left: 1%;
+        width: 500px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
