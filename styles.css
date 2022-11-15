@@ -299,8 +299,15 @@ form{
         left: 4%;
     }
 }
-@media screen and (max-width:270px){
+@media screen and (max-width:400px){
     .sign-up{
         left: 1%;
+        width: 500px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
     }
 }
