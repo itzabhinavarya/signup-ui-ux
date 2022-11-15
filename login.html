@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up Page</title>
+    <title>Sign-in Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -18,32 +18,31 @@
             <img src="Abstraction.png" alt="">
         </div>
         <div class="form">
-            <p>Create Account</p>
+            <p>Welcome Folks</p>
             <div class="google">
                 <img src="google.png" alt="">
-                <p>Signup with Google</p>
+                <p>Login with Google</p>
             </div>
             <div class="facebook">
                 <img src="facebook.png" alt="">
-                <p>Signup with Facebook</p>
+                <p>Login with Facebook</p>
             </div>
             <div class="or">
                 <p>-- OR --</p>
             </div>
             <div class="form-details">
                 <form action="/action.php" method="get" name="myForm" onsubmit="return validation();">
-                    <input type="text" name="name" id="name" placeholder="Full Name" autocomplete="off" required>
-                    <input type="email" name="email" id="email" placeholder="Set Email" autocomplete="off" required>
-                    <input type="password" name="password" id="password" placeholder="Set Password" autocomplete="off" required><span><img src="lock.png" alt=""></span>
-                    <button type="submit">CREATE</button>
-                    <div class="accountExist">
-                        <a href="login.html"><p>Already a member ? Sign-In</p></a>
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" required>
+                    <input type="password" name="password" id="password" placeholder="Password" autocomplete="off" required><span id="lock-span"><img src="lock.png" alt="" id="lock"></span>
+                    <button type="submit">LOGIN</button>
+                    <div class="accountExist" id="accountExist">
+                        <a href="index.html"><p id="alreadyMember">Not a member ? Sign-Up</p></a>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -5,8 +5,6 @@
 
 body {
     position: relative;
-    /* width: 1780px; */
-    /* height: 1412px; */
     background: rgba(26, 74, 96, 0.8);
 }
 
@@ -78,6 +76,7 @@ body {
     width: 221px;
     height: 35px;
     /* font-family: 'Poppins'; */
+    top: 35px;
     font-style: normal;
     font-weight: 800;
     font-size: 24px;
@@ -91,10 +90,12 @@ body {
     Width: 200px;
     Height: 40px;
     background-color: #000000;
-    Top: 150px;
+    /* Top: 150px; */
+    top: 85px;
     Left: 40px;
     border-radius: 2px 12px;
     box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .facebook {
@@ -103,9 +104,11 @@ body {
     Height: 40px;
     background-color: #0e96c7;
     border-radius: 2px 12px;
-    Top: 150px;
+    /* Top: 150px; */
+    top: 85px;
     Left: 245px;
     box-shadow: rgba(0, 0, 0, 0.85) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .google img {
@@ -212,9 +215,65 @@ body {
     border-radius: 2px 12px;
     border-style: none;
     box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 15px;
+    cursor: pointer;
 }
 
 .form-details button:hover {
     background: linear-gradient(90deg, #099bc8,#2dab44);
     transition: 1s ease-in-out;
+}
+.form-details span{
+    position: absolute;
+    top: 0;
+}
+.form-details span img{
+    width: 25px;
+    top: 137px;
+    /* left: 300px; */
+    left: -42px;
+    height: 25px;
+}
+.form-details #lock-span{
+    position: absolute;
+    top: 0px;
+}
+#lock{
+    position: absolute;
+    top: 77px;
+}
+
+
+/* ================================== */
+form{
+    position: absolute;
+    top: -45px;
+}
+
+.accountExist{
+    position: absolute;
+    top: 200px;
+    left: -9px;
+    text-align: center;
+}
+.accountExist p{
+    font-size: 0.8rem;
+    width: 300px;
+    position: absolute;
+    color: #3f3d3d;
+    cursor: pointer;
+}
+
+#accountExist{
+    position: absolute;
+    top: 0px;
+    left: -9px;
+    text-align: center;
+}
+#alreadyMember{
+    font-size: 0.8rem;
+    top: 175px;
+    width: 300px;
+    position: absolute;
+    color: #3f3d3d;
+    cursor: pointer;
 }
