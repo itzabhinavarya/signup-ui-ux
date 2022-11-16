@@ -310,6 +310,21 @@ form{
         top: 100%;
         left: 0;
     }
+    .form p{
+        width: 350px;
+    }
+    .google{
+        width: 210px;
+    }
+    .facebook{
+        width: 210px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
 }
 @media screen and (max-width:440px){
     .sign-up{
@@ -321,6 +336,21 @@ form{
         position: absolute;
         top: 100%;
         left: 0;
+    }
+    .form p{
+        width: 350px;
+    }
+    .google{
+        width: 210px;
+    }
+    .facebook{
+        width: 210px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
     }
 }
 @media screen and (max-width:390px){
@@ -334,6 +364,21 @@ form{
         top: 100%;
         left: 0;
     }
+    .form p{
+        width: 350px;
+    }
+    .google{
+        width: 210px;
+    }
+    .facebook{
+        width: 210px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
 }
 @media screen and (max-width:250px){
     .sign-up{
@@ -346,6 +391,21 @@ form{
         top: 100%;
         left: 0;
     }
+    .form p{
+        width: 350px;
+    }
+    .google{
+        width: 210px;
+    }
+    .facebook{
+        width: 210px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
+    }
 }
 @media screen and (max-width:150px){
     .sign-up{
@@ -357,5 +417,20 @@ form{
         position: absolute;
         top: 100%;
         left: 0;
+    }
+    .form p{
+        width: 350px;
+    }
+    .google{
+        width: 210px;
+    }
+    .facebook{
+        width: 210px;
+    }
+    .google p {
+        font-size: 0.95rem;
+    }
+    .facebook p {
+        font-size: 0.95rem;
     }
 }
