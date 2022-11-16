@@ -304,14 +304,17 @@ form{
         left: 1%;
         width: 500px;
     }
+    .sign-up p{
+        width: 440px;
+    }
     .form{
         width: 500px;
         position: absolute;
         top: 100%;
         left: 0;
     }
-    .form p{
-        width: 350px;
+    #createAccount{
+        width: 415px;
     }
     .google{
         width: 210px;
@@ -331,14 +334,17 @@ form{
         left: 1%;
         width: 500px;
     }
+    .sign-up p{
+        width: 440px;
+    }
     .form{
         width: 500px;
         position: absolute;
         top: 100%;
         left: 0;
     }
-    .form p{
-        width: 350px;
+    #createAccount{
+        width: 415px;
     }
     .google{
         width: 210px;
@@ -358,14 +364,17 @@ form{
         left: 1%;
         width: 500px;
     }
+    .sign-up p{
+        width: 440px;
+    }
     .form{
         width: 500px;
         position: absolute;
         top: 100%;
         left: 0;
     }
-    .form p{
-        width: 350px;
+    #createAccount{
+        width: 415px;
     }
     .google{
         width: 210px;
@@ -385,14 +394,17 @@ form{
         left: 1%;
         width: 500px;
     }
+    .sign-up p{
+        width: 440px;
+    }
     .form{
         width: 500px;
         position: absolute;
         top: 100%;
         left: 0;
     }
-    .form p{
-        width: 350px;
+    #createAccount{
+        width: 415px;
     }
     .google{
         width: 210px;
@@ -412,14 +424,17 @@ form{
         left: 1%;
         width: 500px;
     }
+    .sign-up p{
+        width: 440px;
+    }
     .form{
         width: 500px;
         position: absolute;
         top: 100%;
         left: 0;
     }
-    .form p{
-        width: 350px;
+    #createAccount{
+        width: 415px;
     }
     .google{
         width: 210px;
