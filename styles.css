@@ -384,6 +384,10 @@ form{
     .facebook p {
         font-size: 0.95rem;
     }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
 }
 @media screen and (max-width:390px){
     .sign-up{
@@ -414,6 +418,10 @@ form{
     }
     .facebook p {
         font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
     }
 }
 @media screen and (max-width:250px){
@@ -446,6 +454,10 @@ form{
     .facebook p {
         font-size: 0.95rem;
     }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
+    }
 }
 @media screen and (max-width:150px){
     .sign-up{
@@ -476,5 +488,9 @@ form{
     }
     .facebook p {
         font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
     }
 }
