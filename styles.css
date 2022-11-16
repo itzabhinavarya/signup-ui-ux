@@ -279,6 +279,26 @@ form{
 }
 
 
+
+.copyright{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    /* width: 400px;
+    height: 30px; */
+}
+.copyright p{
+    position: absolute;
+    font-size: 0.8rem;
+    left: 0;
+    top: 500px;
+    width: 800px;
+    height: 30px;
+}
+
+
+
 @media screen and (max-width:1000px){
     .sign-up{
         left: 10%;
@@ -317,16 +337,21 @@ form{
         width: 415px;
     }
     .google{
-        width: 210px;
+        width: 220px;
     }
     .facebook{
-        width: 210px;
+        width: 220px;
+        left: 270px;
     }
     .google p {
         font-size: 0.95rem;
     }
     .facebook p {
         font-size: 0.95rem;
+    }
+    .copyright p{
+        width: 490px;
+        top: 1000px;
     }
 }
 @media screen and (max-width:440px){
@@ -347,10 +372,11 @@ form{
         width: 415px;
     }
     .google{
-        width: 210px;
+        width: 220px;
     }
     .facebook{
-        width: 210px;
+        width: 220px;
+        left: 270px;
     }
     .google p {
         font-size: 0.95rem;
@@ -377,10 +403,11 @@ form{
         width: 415px;
     }
     .google{
-        width: 210px;
+        width: 220px;
     }
     .facebook{
-        width: 210px;
+        width: 220px;
+        left: 270px;
     }
     .google p {
         font-size: 0.95rem;
@@ -407,10 +434,11 @@ form{
         width: 415px;
     }
     .google{
-        width: 210px;
+        width: 220px;
     }
     .facebook{
-        width: 210px;
+        width: 220px;
+        left: 270px;
     }
     .google p {
         font-size: 0.95rem;
@@ -437,10 +465,11 @@ form{
         width: 415px;
     }
     .google{
-        width: 210px;
+        width: 220px;
     }
     .facebook{
-        width: 210px;
+        width: 220px;
+        left: 270px;
     }
     .google p {
         font-size: 0.95rem;
