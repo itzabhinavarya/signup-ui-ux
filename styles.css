@@ -299,7 +299,19 @@ form{
         left: 4%;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:500px){
+    .sign-up{
+        left: 1%;
+        width: 500px;
+    }
+    .form{
+        width: 500px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+    }
+}
+@media screen and (max-width:440px){
     .sign-up{
         left: 1%;
         width: 500px;
