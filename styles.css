@@ -353,6 +353,10 @@ form{
         width: 490px;
         top: 1000px;
     }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
 }
 @media screen and (max-width:440px){
     .sign-up{
@@ -387,6 +391,10 @@ form{
     .copyright p{
         width: 490px;
         top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
     }
 }
 @media screen and (max-width:390px){
@@ -423,6 +431,10 @@ form{
         width: 490px;
         top: 1000px;
     }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
 }
 @media screen and (max-width:250px){
     .sign-up{
@@ -458,6 +470,10 @@ form{
         width: 490px;
         top: 1000px;
     }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
+    }
 }
 @media screen and (max-width:150px){
     .sign-up{
@@ -492,5 +508,9 @@ form{
     .copyright p{
         width: 490px;
         top: 1000px;
+    }
+    #sign-heading{
+        font-size: 0.85rem;
+        top: 1px;
     }
 }
